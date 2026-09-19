@@ -1,7 +1,10 @@
 {
   "national": {
-    "status": "failed",
-    "reason": "Missing required columns in fact_tb_indicator_year.csv: ['indicator']"
+    "status": "ok",
+    "outputs": {
+      "summary": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\national\\national_indicator_trends.csv",
+      "series": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\national\\national_indicator_series.csv"
+    }
   },
   "detection_gap": {
     "status": "ok",
@@ -18,8 +21,11 @@
     }
   },
   "tb_hiv": {
-    "status": "failed",
-    "reason": "tb_hiv_long.csv must contain ['indicator', 'value', 'year']"
+    "status": "ok",
+    "outputs": {
+      "series": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\tb_hiv\\tb_hiv_series.csv",
+      "summary": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\tb_hiv\\tb_hiv_trend_summary.csv"
+    }
   },
   "county": {
     "status": "ok",
@@ -32,8 +38,10 @@
   "report_tables": {
     "status": "ok",
     "outputs": {
+      "national_change": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\report_tables\\table_national_change.csv",
       "detection_gap_latest": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\report_tables\\table_detection_gap_latest.csv",
-      "treatment_summary": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\report_tables\\table_treatment_summary.csv"
+      "treatment_summary": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\report_tables\\table_treatment_summary.csv",
+      "tb_hiv_summary": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\report_tables\\table_tb_hiv_summary.csv"
     }
   }
 }

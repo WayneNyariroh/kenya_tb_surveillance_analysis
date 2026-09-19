@@ -8,8 +8,8 @@
     }
   },
   "knbs": {
-    "status": "ok",
-    "outputs": {}
+    "status": "failed",
+    "reason": "Could not identify county column. Columns: ['population_by_sex_households_land_area_density_by_county', 'unnamed_1', 'unnamed_2', 'unnamed_3', 'unnamed_4', 'unnamed_5', 'unnamed_6', 'unnamed_7', 'unnamed_8', 'unnamed_9']"
   },
   "kmhfr": {
     "status": "skipped",

@@ -1,0 +1,99 @@
+2026-09-20 01:56:38,493 | INFO | kenya_tb_pipeline | Kenya TB Case Study pipeline
+2026-09-20 01:56:38,493 | INFO | kenya_tb_pipeline | Kenya TB Case Study pipeline
+2026-09-20 01:56:38,494 | INFO | kenya_tb_pipeline | Project root: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis
+2026-09-20 01:56:38,494 | INFO | kenya_tb_pipeline | Project root: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis
+2026-09-20 01:56:38,498 | INFO | kenya_tb_pipeline | Log file: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis\logs\pipeline_20260920_015638.log
+2026-09-20 01:56:38,498 | INFO | kenya_tb_pipeline | Log file: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis\logs\pipeline_20260920_015638.log
+2026-09-20 01:56:38,499 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-20 01:56:38,499 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-20 01:56:38,499 | INFO | kenya_tb_pipeline | STARTING: Extract WHO TB data
+2026-09-20 01:56:38,499 | INFO | kenya_tb_pipeline | STARTING: Extract WHO TB data
+2026-09-20 01:56:38,502 | INFO | extract | Using cached file: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis\data\raw\who_tb\who_tb_estimates.csv
+2026-09-20 01:56:38,597 | INFO | src.extract.who_tb | Wrote 25 rows to C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis\data\raw\who_tb\who_tb_estimates_kenya.csv
+2026-09-20 01:56:38,598 | INFO | extract | Using cached file: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis\data\raw\who_tb\who_tb_notifications.csv
+2026-09-20 01:56:38,844 | INFO | src.extract.who_tb | Wrote 45 rows to C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis\data\raw\who_tb\who_tb_notifications_kenya.csv
+2026-09-20 01:56:38,845 | INFO | extract | Using cached file: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis\data\raw\who_tb\who_tb_outcomes.csv
+2026-09-20 01:56:38,905 | INFO | src.extract.who_tb | Wrote 30 rows to C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis\data\raw\who_tb\who_tb_outcomes_kenya.csv
+2026-09-20 01:56:38,906 | INFO | kenya_tb_pipeline | COMPLETED: Extract WHO TB data in 0.41 seconds
+2026-09-20 01:56:38,906 | INFO | kenya_tb_pipeline | COMPLETED: Extract WHO TB data in 0.41 seconds
+2026-09-20 01:56:38,907 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-20 01:56:38,907 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-20 01:56:38,907 | INFO | kenya_tb_pipeline | STARTING: Extract KNBS population data
+2026-09-20 01:56:38,907 | INFO | kenya_tb_pipeline | STARTING: Extract KNBS population data
+2026-09-20 01:56:38,908 | INFO | extract | Downloading https://www.knbs.or.ke/wp-content/uploads/2023/09/2019-Kenya-population-and-Housing-Census-Population-households-density-by-county.xlsx
+2026-09-20 01:56:39,136 | WARNING | urllib3.connectionpool | Retrying (Retry(total=4, connect=5, read=5, redirect=None, status=5)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)'))': /wp-content/uploads/2023/09/2019-Kenya-population-and-Housing-Census-Population-households-density-by-county.xlsx
+2026-09-20 01:56:40,820 | WARNING | urllib3.connectionpool | Retrying (Retry(total=3, connect=5, read=5, redirect=None, status=5)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)'))': /wp-content/uploads/2023/09/2019-Kenya-population-and-Housing-Census-Population-households-density-by-county.xlsx
+2026-09-20 01:56:44,220 | WARNING | urllib3.connectionpool | Retrying (Retry(total=2, connect=5, read=5, redirect=None, status=5)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)'))': /wp-content/uploads/2023/09/2019-Kenya-population-and-Housing-Census-Population-households-density-by-county.xlsx
+2026-09-20 01:56:50,769 | WARNING | urllib3.connectionpool | Retrying (Retry(total=1, connect=5, read=5, redirect=None, status=5)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)'))': /wp-content/uploads/2023/09/2019-Kenya-population-and-Housing-Census-Population-households-density-by-county.xlsx
+2026-09-20 01:57:03,666 | WARNING | urllib3.connectionpool | Retrying (Retry(total=0, connect=5, read=5, redirect=None, status=5)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)'))': /wp-content/uploads/2023/09/2019-Kenya-population-and-Housing-Census-Population-households-density-by-county.xlsx
+2026-09-20 01:57:03,781 | ERROR | kenya_tb_pipeline | FAILED: Extract KNBS population data after 24.87 seconds
+2026-09-20 01:57:03,781 | ERROR | kenya_tb_pipeline | FAILED: Extract KNBS population data after 24.87 seconds
+2026-09-20 01:57:03,782 | ERROR | kenya_tb_pipeline | SSLError: HTTPSConnectionPool(host='www.knbs.or.ke', port=443): Max retries exceeded with url: /wp-content/uploads/2023/09/2019-Kenya-population-and-Housing-Census-Population-households-density-by-county.xlsx (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)')))
+2026-09-20 01:57:03,782 | ERROR | kenya_tb_pipeline | SSLError: HTTPSConnectionPool(host='www.knbs.or.ke', port=443): Max retries exceeded with url: /wp-content/uploads/2023/09/2019-Kenya-population-and-Housing-Census-Population-households-density-by-county.xlsx (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)')))
+2026-09-20 01:57:03,818 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-20 01:57:03,818 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-20 01:57:03,819 | INFO | kenya_tb_pipeline | STARTING: Extract KMHFR facilities
+2026-09-20 01:57:03,819 | INFO | kenya_tb_pipeline | STARTING: Extract KMHFR facilities
+2026-09-20 01:57:03,819 | INFO | src.extract.kmhfr | KMHFR page 1
+2026-09-20 01:57:23,921 | WARNING | urllib3.connectionpool | Retrying (Retry(total=4, connect=4, read=5, redirect=None, status=5)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='api.kmhfr.health.go.ke', port=443) at 0x2291a523890>, 'Connection to api.kmhfr.health.go.ke timed out. (connect timeout=10)')': /api/public/facilities/?page=1&page_size=100
+2026-09-20 01:57:45,564 | WARNING | urllib3.connectionpool | Retrying (Retry(total=3, connect=3, read=5, redirect=None, status=5)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='api.kmhfr.health.go.ke', port=443) at 0x2291a522350>, 'Connection to api.kmhfr.health.go.ke timed out. (connect timeout=10)')': /api/public/facilities/?page=1&page_size=100
+2026-09-20 01:58:08,788 | WARNING | urllib3.connectionpool | Retrying (Retry(total=2, connect=2, read=5, redirect=None, status=5)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='api.kmhfr.health.go.ke', port=443) at 0x2291a523d90>, 'Connection to api.kmhfr.health.go.ke timed out. (connect timeout=10)')': /api/public/facilities/?page=1&page_size=100
+2026-09-20 01:58:35,210 | WARNING | urllib3.connectionpool | Retrying (Retry(total=1, connect=1, read=5, redirect=None, status=5)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='api.kmhfr.health.go.ke', port=443) at 0x2291a660050>, 'Connection to api.kmhfr.health.go.ke timed out. (connect timeout=10)')': /api/public/facilities/?page=1&page_size=100
+2026-09-20 01:59:08,053 | WARNING | urllib3.connectionpool | Retrying (Retry(total=0, connect=0, read=5, redirect=None, status=5)) after connection broken by 'ConnectTimeoutError(<HTTPSConnection(host='api.kmhfr.health.go.ke', port=443) at 0x2291a6602d0>, 'Connection to api.kmhfr.health.go.ke timed out. (connect timeout=10)')': /api/public/facilities/?page=1&page_size=100
+2026-09-20 01:59:28,082 | ERROR | kenya_tb_pipeline | FAILED: Extract KMHFR facilities after 144.26 seconds
+2026-09-20 01:59:28,082 | ERROR | kenya_tb_pipeline | FAILED: Extract KMHFR facilities after 144.26 seconds
+2026-09-20 01:59:28,107 | ERROR | kenya_tb_pipeline | ConnectTimeout: HTTPSConnectionPool(host='api.kmhfr.health.go.ke', port=443): Max retries exceeded with url: /api/public/facilities/?page=1&page_size=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.kmhfr.health.go.ke', port=443) at 0x2291a660550>, 'Connection to api.kmhfr.health.go.ke timed out. (connect timeout=10)'))
+2026-09-20 01:59:28,107 | ERROR | kenya_tb_pipeline | ConnectTimeout: HTTPSConnectionPool(host='api.kmhfr.health.go.ke', port=443): Max retries exceeded with url: /api/public/facilities/?page=1&page_size=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.kmhfr.health.go.ke', port=443) at 0x2291a660550>, 'Connection to api.kmhfr.health.go.ke timed out. (connect timeout=10)'))
+2026-09-20 01:59:28,143 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-20 01:59:28,143 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-20 01:59:28,236 | INFO | kenya_tb_pipeline | STARTING: Discover public HIV resources
+2026-09-20 01:59:28,236 | INFO | kenya_tb_pipeline | STARTING: Discover public HIV resources
+2026-09-20 02:01:13,533 | WARNING | urllib3.connectionpool | Retrying (Retry(total=4, connect=4, read=5, redirect=None, status=5)) after connection broken by 'NameResolutionError("HTTPSConnection(host='adr.unaids.org', port=443): Failed to resolve 'adr.unaids.org' ([Errno 11001] getaddrinfo failed)")': /naomi-data-package/1da75e41-8b3e-49f2-bacf-cd1d4d700e72/resource/10620ec0-0507-4d08-ac63-5df39e4c721c/download/ken_areas.geojson
+2026-09-20 02:01:29,354 | INFO | src.extract.hiv | Wrote 96 resource records to C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis\data\raw\hiv\unaids_kenya_hiv_manifest.json
+2026-09-20 02:01:29,355 | INFO | kenya_tb_pipeline | COMPLETED: Discover public HIV resources in 121.12 seconds
+2026-09-20 02:01:29,355 | INFO | kenya_tb_pipeline | COMPLETED: Discover public HIV resources in 121.12 seconds
+2026-09-20 02:01:29,356 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-20 02:01:29,356 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-20 02:01:29,357 | INFO | kenya_tb_pipeline | STARTING: Transform raw data
+2026-09-20 02:01:29,357 | INFO | kenya_tb_pipeline | STARTING: Transform raw data
+2026-09-20 02:01:29,614 | WARNING | src.transform.knbs | KNBS county workbook not found: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis\data\raw\knbs\knbs_2019_county_population.xlsx
+2026-09-20 02:01:29,615 | WARNING | src.transform.pipeline | kmhfr skipped: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis\data\raw\kmhfr\facilities.csv
+2026-09-20 02:01:30,425 | WARNING | src.transform.model | Cannot build dim_county without C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis\data\processed\knbs\county_population_2019.csv
+2026-09-20 02:01:30,571 | INFO | kenya_tb_pipeline | COMPLETED: Transform raw data in 1.21 seconds
+2026-09-20 02:01:30,571 | INFO | kenya_tb_pipeline | COMPLETED: Transform raw data in 1.21 seconds
+2026-09-20 02:01:30,588 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-20 02:01:30,588 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-20 02:01:30,588 | INFO | kenya_tb_pipeline | STARTING: Build epidemiological indicators
+2026-09-20 02:01:30,588 | INFO | kenya_tb_pipeline | STARTING: Build epidemiological indicators
+2026-09-20 02:01:30,624 | WARNING | src.indicators.pipeline | Input not found: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis\data\model\dim_county.csv
+2026-09-20 02:01:30,968 | INFO | kenya_tb_pipeline | COMPLETED: Build epidemiological indicators in 0.38 seconds
+2026-09-20 02:01:30,968 | INFO | kenya_tb_pipeline | COMPLETED: Build epidemiological indicators in 0.38 seconds
+2026-09-20 02:01:30,969 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-20 02:01:30,969 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-20 02:01:30,969 | INFO | kenya_tb_pipeline | STARTING: Run analytical case study
+2026-09-20 02:01:30,969 | INFO | kenya_tb_pipeline | STARTING: Run analytical case study
+2026-09-20 02:01:31,272 | WARNING | src.analysis.county | No county context table found.
+2026-09-20 02:01:31,275 | WARNING | src.analysis.concentration | County profile not found: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis\data\analysis\county\county_context_profile.csv
+2026-09-20 02:01:31,319 | INFO | kenya_tb_pipeline | COMPLETED: Run analytical case study in 0.35 seconds
+2026-09-20 02:01:31,319 | INFO | kenya_tb_pipeline | COMPLETED: Run analytical case study in 0.35 seconds
+2026-09-20 02:01:31,322 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-20 02:01:31,322 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-20 02:01:31,322 | INFO | kenya_tb_pipeline | STARTING: Generate visualizations
+2026-09-20 02:01:31,322 | INFO | kenya_tb_pipeline | STARTING: Generate visualizations
+2026-09-20 02:02:06,846 | WARNING | src.visualization.maps | Facility file not found: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis\data\processed\kmhfr\dim_facility.csv
+2026-09-20 02:02:06,851 | INFO | kenya_tb_pipeline | COMPLETED: Generate visualizations in 35.53 seconds
+2026-09-20 02:02:06,851 | INFO | kenya_tb_pipeline | COMPLETED: Generate visualizations in 35.53 seconds
+2026-09-20 02:02:06,873 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-20 02:02:06,873 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-20 02:02:06,879 | INFO | kenya_tb_pipeline | PIPELINE FINISHED
+2026-09-20 02:02:06,879 | INFO | kenya_tb_pipeline | PIPELINE FINISHED
+2026-09-20 02:02:06,880 | INFO | kenya_tb_pipeline | Duration: 328.38 seconds
+2026-09-20 02:02:06,880 | INFO | kenya_tb_pipeline | Duration: 328.38 seconds
+2026-09-20 02:02:06,881 | INFO | kenya_tb_pipeline | Successful steps: 6 | Failed steps: 2
+2026-09-20 02:02:06,881 | INFO | kenya_tb_pipeline | Successful steps: 6 | Failed steps: 2
+2026-09-20 02:02:06,881 | INFO | kenya_tb_pipeline | Run summary: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis\runs\pipeline_run_20260920_020206.json
+2026-09-20 02:02:06,881 | INFO | kenya_tb_pipeline | Run summary: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis\runs\pipeline_run_20260920_020206.json
+2026-09-20 02:02:06,881 | INFO | kenya_tb_pipeline | Detailed log: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis\logs\pipeline_20260920_015638.log
+2026-09-20 02:02:06,881 | INFO | kenya_tb_pipeline | Detailed log: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_pipeline\kenya_tb_surveillance_analysis\logs\pipeline_20260920_015638.log
+2026-09-20 02:02:06,882 | ERROR | kenya_tb_pipeline | Pipeline completed with errors.
+2026-09-20 02:02:06,882 | ERROR | kenya_tb_pipeline | Pipeline completed with errors.

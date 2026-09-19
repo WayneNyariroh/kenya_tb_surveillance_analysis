@@ -1,0 +1,17 @@
+{
+  "rows": 13,
+  "columns": [
+    "indicator",
+    "first_year",
+    "first_value",
+    "latest_year",
+    "latest_value",
+    "absolute_change",
+    "percent_change",
+    "annual_linear_slope",
+    "observations"
+  ],
+  "output_file": "national_indicator_trends.csv",
+  "grain": "indicator",
+  "description": "First/latest values and long-run directional summaries for Kenya TB indicators."
+}

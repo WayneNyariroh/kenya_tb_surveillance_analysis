@@ -1,0 +1,19 @@
+{
+  "rows": 405,
+  "columns": [
+    "year",
+    "indicator_id",
+    "indicator_name",
+    "value",
+    "unit",
+    "source",
+    "source_variable",
+    "lower",
+    "upper",
+    "notes",
+    "indicator"
+  ],
+  "output_file": "national_indicator_series.csv",
+  "grain": "indicator-year",
+  "description": "Chart-ready national TB indicator series."
+}

@@ -1,0 +1,5 @@
+indicator,first_year,first_value,latest_year,latest_value,absolute_change,percent_change,observations
+estimated_tbhiv_death_rate,2000,142.0,2024,14.0,-128.0,-90.14084507042254,25
+estimated_tbhiv_deaths_num,2000,44000.0,2024,8000.0,-36000.0,-81.81818181818183,25
+estimated_tbhiv_incidence_num,2000,95000.0,2024,25000.0,-70000.0,-73.68421052631578,25
+estimated_tbhiv_incidence_rate,2000,309.0,2024,44.0,-265.0,-85.76051779935275,25

@@ -1,0 +1,12 @@
+{
+  "rows": 13,
+  "columns": [
+    "indicator",
+    "first_year",
+    "first_value",
+    "latest_year",
+    "latest_value",
+    "percent_change"
+  ],
+  "output_file": "table_national_change.csv"
+}

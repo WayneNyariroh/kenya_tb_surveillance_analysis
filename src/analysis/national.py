@@ -21,8 +21,8 @@ def analyse_national_trends(
     Expected input:
       data/indicators/fact_tb_indicator_year.csv
 
-    Expected columns:
-      year, indicator, value
+    Canonical indicator-layer columns:
+      year, indicator_id, indicator_name, value
     Optional:
       lower, upper, unit, source, notes
     """
@@ -34,11 +34,15 @@ def analyse_national_trends(
         raise FileNotFoundError(path)
 
     df = pd.read_csv(path, low_memory=False)
-    required = {"year", "indicator", "value"}
+    required = {"year", "indicator_id", "value"}
     missing = required - set(df.columns)
     if missing:
         raise ValueError(f"Missing required columns in {path.name}: {sorted(missing)}")
 
+    # The indicator layer uses stable machine-readable IDs.  Analysis outputs
+    # retain the historical ``indicator`` field expected by report and chart
+    # modules, but populate it from that canonical identifier.
+    df["indicator"] = df["indicator_id"]
     df["year"] = pd.to_numeric(df["year"], errors="coerce")
     df["value"] = pd.to_numeric(df["value"], errors="coerce")
     df = df.dropna(subset=["year", "indicator"]).copy()

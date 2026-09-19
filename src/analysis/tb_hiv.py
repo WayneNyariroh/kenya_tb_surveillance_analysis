@@ -27,10 +27,13 @@ def analyse_tb_hiv(
         return {}
 
     df = pd.read_csv(path, low_memory=False)
-    required = {"year", "indicator", "value"}
+    required = {"year", "indicator_id", "value"}
     if not required.issubset(df.columns):
         raise ValueError(f"{path.name} must contain {sorted(required)}")
 
+    # Keep downstream report and plotting contracts stable while using the
+    # canonical indicator-layer identifier as the grouping field.
+    df["indicator"] = df["indicator_id"]
     df["year"] = pd.to_numeric(df["year"], errors="coerce")
     df["value"] = pd.to_numeric(df["value"], errors="coerce")
     df = df.dropna(subset=["year", "indicator"]).copy()

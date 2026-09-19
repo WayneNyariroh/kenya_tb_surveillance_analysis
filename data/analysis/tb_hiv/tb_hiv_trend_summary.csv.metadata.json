@@ -1,0 +1,14 @@
+{
+  "rows": 4,
+  "columns": [
+    "indicator",
+    "first_year",
+    "first_value",
+    "latest_year",
+    "latest_value",
+    "absolute_change",
+    "percent_change",
+    "observations"
+  ],
+  "output_file": "tb_hiv_trend_summary.csv"
+}

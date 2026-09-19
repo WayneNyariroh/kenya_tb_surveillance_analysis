@@ -1,0 +1,230 @@
+{
+  "project": "Kenya TB Case Study",
+  "started_at": "2026-09-19T23:26:34.018345+00:00",
+  "finished_at": "2026-09-19T23:29:29.760869+00:00",
+  "duration_seconds": 175.742,
+  "log_file": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\logs\\pipeline_20260920_022634.log",
+  "steps_total": 8,
+  "steps_successful": 7,
+  "steps_failed": 1,
+  "status": "completed_with_errors",
+  "steps": [
+    {
+      "step": "Extract WHO TB data",
+      "status": "success",
+      "started_at": "2026-09-19T23:26:34.025132+00:00",
+      "duration_seconds": 0.413,
+      "outputs": {
+        "estimates": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\raw\\who_tb\\who_tb_estimates.csv",
+        "notifications": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\raw\\who_tb\\who_tb_notifications.csv",
+        "outcomes": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\raw\\who_tb\\who_tb_outcomes.csv"
+      },
+      "error": null
+    },
+    {
+      "step": "Extract KNBS population data",
+      "status": "success",
+      "started_at": "2026-09-19T23:26:34.439518+00:00",
+      "duration_seconds": 0.87,
+      "outputs": {
+        "county_population": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\raw\\knbs\\knbs_2019_county_population.xlsx",
+        "subcounty_population": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\raw\\knbs\\knbs_2019_subcounty_population.xlsx"
+      },
+      "error": null
+    },
+    {
+      "step": "Extract KMHFR facilities",
+      "status": "failed",
+      "started_at": "2026-09-19T23:26:35.312585+00:00",
+      "duration_seconds": 84.117,
+      "outputs": null,
+      "error": {
+        "type": "ConnectTimeout",
+        "message": "HTTPSConnectionPool(host='api.kmhfr.health.go.ke', port=443): Max retries exceeded with url: /api/public/facilities/?page=1&page_size=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.kmhfr.health.go.ke', port=443) at 0x24e3c09ae90>, 'Connection to api.kmhfr.health.go.ke timed out. (connect timeout=10)'))",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\wayne\\Lib\\site-packages\\urllib3\\connection.py\", line 239, in _new_conn\n    sock = connection.create_connection(\n        (self._dns_host, self.port),\n    ...<2 lines>...\n        socket_options=self.socket_options,\n    )\n  File \"C:\\Users\\Admin\\wayne\\Lib\\site-packages\\urllib3\\util\\connection.py\", line 85, in create_connection\n    raise err\n  File \"C:\\Users\\Admin\\wayne\\Lib\\site-packages\\urllib3\\util\\connection.py\", line 73, in create_connection\n    sock.connect(sa)\n    ~~~~~~~~~~~~^^^^\nTimeoutError: timed out\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\wayne\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 793, in urlopen\n    response = self._make_request(\n        conn,\n    ...<10 lines>...\n        **response_kw,\n    )\n  File \"C:\\Users\\Admin\\wayne\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 494, in _make_request\n    raise new_e\n  File \"C:\\Users\\Admin\\wayne\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 470, in _make_request\n    self._validate_conn(conn)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"C:\\Users\\Admin\\wayne\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 1125, in _validate_conn\n    conn.connect()\n    ~~~~~~~~~~~~^^\n  File \"C:\\Users\\Admin\\wayne\\Lib\\site-packages\\urllib3\\connection.py\", line 827, in connect\n    self.sock = sock = self._new_conn()\n                       ~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\Admin\\wayne\\Lib\\site-packages\\urllib3\\connection.py\", line 248, in _new_conn\n    raise ConnectTimeoutError(\n    ...<2 lines>...\n    ) from e\nurllib3.exceptions.ConnectTimeoutError: (<HTTPSConnection(host='api.kmhfr.health.go.ke', port=443) at 0x24e3c09ae90>, 'Connection to api.kmhfr.health.go.ke timed out. (connect timeout=10)')\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\wayne\\Lib\\site-packages\\requests\\adapters.py\", line 696, in send\n    resp = conn.urlopen(\n        method=request.method,\n    ...<9 lines>...\n        chunked=chunked,\n    )\n  File \"C:\\Users\\Admin\\wayne\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 886, in urlopen\n    return self.urlopen(\n           ~~~~~~~~~~~~^\n        method,\n        ^^^^^^^\n    ...<13 lines>...\n        **response_kw,\n        ^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\Admin\\wayne\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 886, in urlopen\n    return self.urlopen(\n           ~~~~~~~~~~~~^\n        method,\n        ^^^^^^^\n    ...<13 lines>...\n        **response_kw,\n        ^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\Admin\\wayne\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 886, in urlopen\n    return self.urlopen(\n           ~~~~~~~~~~~~^\n        method,\n        ^^^^^^^\n    ...<13 lines>...\n        **response_kw,\n        ^^^^^^^^^^^^^^\n    )\n    ^\n  [Previous line repeated 2 more times]\n  File \"C:\\Users\\Admin\\wayne\\Lib\\site-packages\\urllib3\\connectionpool.py\", line 847, in urlopen\n    retries = retries.increment(\n        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]\n    )\n  File \"C:\\Users\\Admin\\wayne\\Lib\\site-packages\\urllib3\\util\\retry.py\", line 555, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.kmhfr.health.go.ke', port=443): Max retries exceeded with url: /api/public/facilities/?page=1&page_size=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.kmhfr.health.go.ke', port=443) at 0x24e3c09ae90>, 'Connection to api.kmhfr.health.go.ke timed out. (connect timeout=10)'))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\run_pipeline.py\", line 82, in run_step\n    output = func()\n  File \"C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\run_pipeline.py\", line 148, in <lambda>\n    lambda: extract_kmhfr_facilities(\n            ~~~~~~~~~~~~~~~~~~~~~~~~^\n        data_raw / \"kmhfr\",\n        ^^^^^^^^^^^^^^^^^^^\n    ),\n    ^\n  File \"C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\src\\extract\\kmhfr.py\", line 84, in extract_kmhfr_facilities\n    response = session.get(url, params=params, timeout=(10, 90))\n  File \"C:\\Users\\Admin\\wayne\\Lib\\site-packages\\requests\\sessions.py\", line 671, in get\n    return self.request(\"GET\", url, params=params, **kwargs)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\wayne\\Lib\\site-packages\\requests\\sessions.py\", line 651, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"C:\\Users\\Admin\\wayne\\Lib\\site-packages\\requests\\sessions.py\", line 784, in send\n    r = adapter.send(request, **kwargs)\n  File \"C:\\Users\\Admin\\wayne\\Lib\\site-packages\\requests\\adapters.py\", line 717, in send\n    raise ConnectTimeout(e, request=request)\nrequests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.kmhfr.health.go.ke', port=443): Max retries exceeded with url: /api/public/facilities/?page=1&page_size=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.kmhfr.health.go.ke', port=443) at 0x24e3c09ae90>, 'Connection to api.kmhfr.health.go.ke timed out. (connect timeout=10)'))\n"
+      }
+    },
+    {
+      "step": "Discover public HIV resources",
+      "status": "success",
+      "started_at": "2026-09-19T23:27:59.594542+00:00",
+      "duration_seconds": 62.698,
+      "outputs": {
+        "manifest": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\raw\\hiv\\unaids_kenya_hiv_manifest.json",
+        "packages": 14,
+        "resources": 96
+      },
+      "error": null
+    },
+    {
+      "step": "Transform raw data",
+      "status": "success",
+      "started_at": "2026-09-19T23:29:02.294258+00:00",
+      "duration_seconds": 1.26,
+      "outputs": {
+        "who_tb": {
+          "status": "ok",
+          "outputs": {
+            "estimates": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\processed\\who_tb\\estimates_kenya.csv",
+            "notifications": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\processed\\who_tb\\notifications_kenya.csv",
+            "outcomes": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\processed\\who_tb\\outcomes_kenya.csv"
+          }
+        },
+        "knbs": {
+          "status": "failed",
+          "reason": "Could not identify county column. Columns: ['population_by_sex_households_land_area_density_by_county', 'unnamed_1', 'unnamed_2', 'unnamed_3', 'unnamed_4', 'unnamed_5', 'unnamed_6', 'unnamed_7', 'unnamed_8', 'unnamed_9']"
+        },
+        "kmhfr": {
+          "status": "skipped",
+          "reason": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\raw\\kmhfr\\facilities.csv"
+        },
+        "hiv": {
+          "status": "ok",
+          "outputs": {
+            "resource_1": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\processed\\hiv\\kenya-geographic-health-boundaries_1.csv",
+            "resource_2": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\processed\\hiv\\kenya-geographic-data-2019_2.csv",
+            "resource_3": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\processed\\hiv\\kenya-geographic-data-2019_3.csv",
+            "resource_4": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\processed\\hiv\\kenya-geographic-data-2019_4.csv",
+            "resource_5": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\processed\\hiv\\kenya-population-data-for-naomi_5.csv"
+          }
+        },
+        "model": {
+          "fact_national_tb_year": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\model\\fact_national_tb_year.csv"
+        }
+      },
+      "error": null
+    },
+    {
+      "step": "Build epidemiological indicators",
+      "status": "success",
+      "started_at": "2026-09-19T23:29:03.562234+00:00",
+      "duration_seconds": 0.432,
+      "outputs": {
+        "tb_burden_long": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\indicators\\tb_burden_long.csv",
+        "tb_notifications_long": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\indicators\\tb_notifications_long.csv",
+        "diagnostic_variable_inventory": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\indicators\\diagnostic_variable_inventory.csv",
+        "tb_hiv_long": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\indicators\\tb_hiv_long.csv",
+        "treatment_cohorts": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\indicators\\treatment_cohorts.csv",
+        "quality_treatment": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\indicators\\quality_treatment.csv",
+        "fact_tb_indicator_year": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\indicators\\fact_tb_indicator_year.csv",
+        "quality_indicators": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\indicators\\quality_indicators.csv",
+        "analysis_tb_year": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\indicators\\analysis_tb_year.csv",
+        "manifest": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\indicators\\indicator_run.json"
+      },
+      "error": null
+    },
+    {
+      "step": "Run analytical case study",
+      "status": "success",
+      "started_at": "2026-09-19T23:29:04.012919+00:00",
+      "duration_seconds": 0.419,
+      "outputs": {
+        "national": {
+          "status": "ok",
+          "outputs": {
+            "summary": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\national\\national_indicator_trends.csv",
+            "series": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\national\\national_indicator_series.csv"
+          }
+        },
+        "detection_gap": {
+          "status": "ok",
+          "outputs": {
+            "series": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\detection_gap\\detection_gap_by_year.csv",
+            "latest": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\detection_gap\\detection_gap_latest.csv"
+          }
+        },
+        "treatment": {
+          "status": "ok",
+          "outputs": {
+            "series": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\treatment\\treatment_series.csv",
+            "summary": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\treatment\\treatment_trend_summary.csv"
+          }
+        },
+        "tb_hiv": {
+          "status": "ok",
+          "outputs": {
+            "series": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\tb_hiv\\tb_hiv_series.csv",
+            "summary": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\tb_hiv\\tb_hiv_trend_summary.csv"
+          }
+        },
+        "county": {
+          "status": "ok",
+          "outputs": {}
+        },
+        "concentration": {
+          "status": "ok",
+          "outputs": {}
+        },
+        "report_tables": {
+          "status": "ok",
+          "outputs": {
+            "national_change": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\report_tables\\table_national_change.csv",
+            "detection_gap_latest": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\report_tables\\table_detection_gap_latest.csv",
+            "treatment_summary": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\report_tables\\table_treatment_summary.csv",
+            "tb_hiv_summary": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\report_tables\\table_tb_hiv_summary.csv"
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "step": "Generate visualizations",
+      "status": "success",
+      "started_at": "2026-09-19T23:29:04.439743+00:00",
+      "duration_seconds": 25.32,
+      "outputs": {
+        "national": {
+          "status": "ok",
+          "outputs": {
+            "estimated_incidence_num": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\estimated_incidence_num.png",
+            "estimated_incidence_rate": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\estimated_incidence_rate.png",
+            "estimated_tb_death_rate_excl_hiv": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\estimated_tb_death_rate_excl_hiv.png",
+            "estimated_tb_deaths_excl_hiv_num": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\estimated_tb_deaths_excl_hiv_num.png",
+            "estimated_tbhiv_death_rate": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\estimated_tbhiv_death_rate.png",
+            "estimated_tbhiv_deaths_num": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\estimated_tbhiv_deaths_num.png",
+            "estimated_tbhiv_incidence_num": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\estimated_tbhiv_incidence_num.png",
+            "estimated_tbhiv_incidence_rate": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\estimated_tbhiv_incidence_rate.png",
+            "notification_incidence_gap": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\notification_incidence_gap.png",
+            "notification_rate": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\notification_rate.png",
+            "notification_to_incidence_ratio": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\notification_to_incidence_ratio.png",
+            "notifications": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\notifications.png",
+            "population": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\population.png"
+          }
+        },
+        "detection_gap": {
+          "status": "ok",
+          "outputs": {
+            "notification_incidence_gap": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\detection_gap\\notification_incidence_gap.png",
+            "notification_to_incidence_ratio": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\detection_gap\\notification_to_incidence_ratio.png"
+          }
+        },
+        "treatment": {
+          "status": "ok",
+          "outputs": {}
+        },
+        "tb_hiv": {
+          "status": "ok",
+          "outputs": {
+            "estimated_tbhiv_death_rate": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\tb_hiv\\estimated_tbhiv_death_rate.png",
+            "estimated_tbhiv_deaths_num": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\tb_hiv\\estimated_tbhiv_deaths_num.png",
+            "estimated_tbhiv_incidence_num": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\tb_hiv\\estimated_tbhiv_incidence_num.png",
+            "estimated_tbhiv_incidence_rate": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\tb_hiv\\estimated_tbhiv_incidence_rate.png"
+          }
+        },
+        "county": {
+          "status": "ok",
+          "outputs": {}
+        },
+        "concentration": {
+          "status": "ok",
+          "outputs": {}
+        },
+        "facility_map": {
+          "status": "skipped",
+          "output": null
+        }
+      },
+      "error": null
+    }
+  ]
+}

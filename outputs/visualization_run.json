@@ -1,7 +1,21 @@
 {
   "national": {
-    "status": "skipped",
-    "reason": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\national\\national_indicator_series.csv"
+    "status": "ok",
+    "outputs": {
+      "estimated_incidence_num": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\estimated_incidence_num.png",
+      "estimated_incidence_rate": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\estimated_incidence_rate.png",
+      "estimated_tb_death_rate_excl_hiv": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\estimated_tb_death_rate_excl_hiv.png",
+      "estimated_tb_deaths_excl_hiv_num": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\estimated_tb_deaths_excl_hiv_num.png",
+      "estimated_tbhiv_death_rate": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\estimated_tbhiv_death_rate.png",
+      "estimated_tbhiv_deaths_num": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\estimated_tbhiv_deaths_num.png",
+      "estimated_tbhiv_incidence_num": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\estimated_tbhiv_incidence_num.png",
+      "estimated_tbhiv_incidence_rate": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\estimated_tbhiv_incidence_rate.png",
+      "notification_incidence_gap": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\notification_incidence_gap.png",
+      "notification_rate": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\notification_rate.png",
+      "notification_to_incidence_ratio": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\notification_to_incidence_ratio.png",
+      "notifications": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\notifications.png",
+      "population": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\national\\population.png"
+    }
   },
   "detection_gap": {
     "status": "ok",
@@ -16,7 +30,12 @@
   },
   "tb_hiv": {
     "status": "ok",
-    "outputs": {}
+    "outputs": {
+      "estimated_tbhiv_death_rate": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\tb_hiv\\estimated_tbhiv_death_rate.png",
+      "estimated_tbhiv_deaths_num": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\tb_hiv\\estimated_tbhiv_deaths_num.png",
+      "estimated_tbhiv_incidence_num": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\tb_hiv\\estimated_tbhiv_incidence_num.png",
+      "estimated_tbhiv_incidence_rate": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\tb_hiv\\estimated_tbhiv_incidence_rate.png"
+    }
   },
   "county": {
     "status": "ok",
