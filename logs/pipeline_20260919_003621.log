@@ -1,0 +1,50 @@
+2026-09-19 00:36:21,747 | INFO | kenya_tb_pipeline | Kenya TB Case Study pipeline
+2026-09-19 00:36:21,747 | INFO | kenya_tb_pipeline | Kenya TB Case Study pipeline
+2026-09-19 00:36:21,747 | INFO | kenya_tb_pipeline | Project root: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_extractors\kenya_tb_extractors
+2026-09-19 00:36:21,747 | INFO | kenya_tb_pipeline | Project root: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_extractors\kenya_tb_extractors
+2026-09-19 00:36:21,748 | INFO | kenya_tb_pipeline | Log file: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_extractors\kenya_tb_extractors\logs\pipeline_20260919_003621.log
+2026-09-19 00:36:21,748 | INFO | kenya_tb_pipeline | Log file: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_extractors\kenya_tb_extractors\logs\pipeline_20260919_003621.log
+2026-09-19 00:36:21,751 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-19 00:36:21,751 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-19 00:36:21,752 | INFO | kenya_tb_pipeline | STARTING: Extract WHO TB data
+2026-09-19 00:36:21,752 | INFO | kenya_tb_pipeline | STARTING: Extract WHO TB data
+2026-09-19 00:36:21,755 | INFO | extract | Downloading https://extranet.who.int/tme/generateCSV.asp?ds=estimates
+2026-09-19 00:36:26,862 | INFO | src.extract.who_tb | Wrote 25 rows to C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_extractors\kenya_tb_extractors\data\raw\who_tb\who_tb_estimates_kenya.csv
+2026-09-19 00:36:26,863 | INFO | extract | Downloading https://extranet.who.int/tme/generateCSV.asp?ds=notifications
+2026-09-19 00:36:34,449 | INFO | src.extract.who_tb | Wrote 45 rows to C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_extractors\kenya_tb_extractors\data\raw\who_tb\who_tb_notifications_kenya.csv
+2026-09-19 00:36:34,451 | INFO | extract | Downloading https://extranet.who.int/tme/generateCSV.asp?ds=outcomes
+2026-09-19 00:36:35,666 | INFO | src.extract.who_tb | Wrote 30 rows to C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_extractors\kenya_tb_extractors\data\raw\who_tb\who_tb_outcomes_kenya.csv
+2026-09-19 00:36:35,671 | INFO | kenya_tb_pipeline | COMPLETED: Extract WHO TB data in 13.92 seconds
+2026-09-19 00:36:35,671 | INFO | kenya_tb_pipeline | COMPLETED: Extract WHO TB data in 13.92 seconds
+2026-09-19 00:36:35,672 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-19 00:36:35,672 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-19 00:36:35,672 | INFO | kenya_tb_pipeline | STARTING: Extract KNBS population data
+2026-09-19 00:36:35,672 | INFO | kenya_tb_pipeline | STARTING: Extract KNBS population data
+2026-09-19 00:36:35,674 | INFO | extract | Downloading https://www.knbs.or.ke/wp-content/uploads/2023/09/2019-Kenya-population-and-Housing-Census-Population-households-density-by-county.xlsx
+2026-09-19 00:36:35,780 | WARNING | urllib3.connectionpool | Retrying (Retry(total=4, connect=5, read=5, redirect=None, status=5)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)'))': /wp-content/uploads/2023/09/2019-Kenya-population-and-Housing-Census-Population-households-density-by-county.xlsx
+2026-09-19 00:36:37,478 | WARNING | urllib3.connectionpool | Retrying (Retry(total=3, connect=5, read=5, redirect=None, status=5)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)'))': /wp-content/uploads/2023/09/2019-Kenya-population-and-Housing-Census-Population-households-density-by-county.xlsx
+2026-09-19 00:36:40,765 | WARNING | urllib3.connectionpool | Retrying (Retry(total=2, connect=5, read=5, redirect=None, status=5)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)'))': /wp-content/uploads/2023/09/2019-Kenya-population-and-Housing-Census-Population-households-density-by-county.xlsx
+2026-09-19 00:36:47,256 | WARNING | urllib3.connectionpool | Retrying (Retry(total=1, connect=5, read=5, redirect=None, status=5)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)'))': /wp-content/uploads/2023/09/2019-Kenya-population-and-Housing-Census-Population-households-density-by-county.xlsx
+2026-09-19 00:37:00,181 | WARNING | urllib3.connectionpool | Retrying (Retry(total=0, connect=5, read=5, redirect=None, status=5)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)'))': /wp-content/uploads/2023/09/2019-Kenya-population-and-Housing-Census-Population-households-density-by-county.xlsx
+2026-09-19 00:37:00,285 | ERROR | kenya_tb_pipeline | FAILED: Extract KNBS population data after 24.61 seconds
+2026-09-19 00:37:00,285 | ERROR | kenya_tb_pipeline | FAILED: Extract KNBS population data after 24.61 seconds
+2026-09-19 00:37:00,346 | ERROR | kenya_tb_pipeline | SSLError: HTTPSConnectionPool(host='www.knbs.or.ke', port=443): Max retries exceeded with url: /wp-content/uploads/2023/09/2019-Kenya-population-and-Housing-Census-Population-households-density-by-county.xlsx (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)')))
+2026-09-19 00:37:00,346 | ERROR | kenya_tb_pipeline | SSLError: HTTPSConnectionPool(host='www.knbs.or.ke', port=443): Max retries exceeded with url: /wp-content/uploads/2023/09/2019-Kenya-population-and-Housing-Census-Population-households-density-by-county.xlsx (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)')))
+2026-09-19 00:37:00,729 | ERROR | kenya_tb_pipeline | Pipeline stopped because 'Extract KNBS population data' failed.
+2026-09-19 00:37:00,729 | ERROR | kenya_tb_pipeline | Pipeline stopped because 'Extract KNBS population data' failed.
+2026-09-19 00:37:00,729 | ERROR | kenya_tb_pipeline | Use --continue-on-error if you want later steps attempted.
+2026-09-19 00:37:00,729 | ERROR | kenya_tb_pipeline | Use --continue-on-error if you want later steps attempted.
+2026-09-19 00:37:00,732 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-19 00:37:00,732 | INFO | kenya_tb_pipeline | ========================================================================
+2026-09-19 00:37:00,732 | INFO | kenya_tb_pipeline | PIPELINE FINISHED
+2026-09-19 00:37:00,732 | INFO | kenya_tb_pipeline | PIPELINE FINISHED
+2026-09-19 00:37:00,733 | INFO | kenya_tb_pipeline | Duration: 38.98 seconds
+2026-09-19 00:37:00,733 | INFO | kenya_tb_pipeline | Duration: 38.98 seconds
+2026-09-19 00:37:00,733 | INFO | kenya_tb_pipeline | Successful steps: 1 | Failed steps: 1
+2026-09-19 00:37:00,733 | INFO | kenya_tb_pipeline | Successful steps: 1 | Failed steps: 1
+2026-09-19 00:37:00,734 | INFO | kenya_tb_pipeline | Run summary: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_extractors\kenya_tb_extractors\runs\pipeline_run_20260919_003700.json
+2026-09-19 00:37:00,734 | INFO | kenya_tb_pipeline | Run summary: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_extractors\kenya_tb_extractors\runs\pipeline_run_20260919_003700.json
+2026-09-19 00:37:00,734 | INFO | kenya_tb_pipeline | Detailed log: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_extractors\kenya_tb_extractors\logs\pipeline_20260919_003621.log
+2026-09-19 00:37:00,734 | INFO | kenya_tb_pipeline | Detailed log: C:\Users\Admin\Downloads\WAYNE\PROJECTS\kenya_tb_extractors\kenya_tb_extractors\logs\pipeline_20260919_003621.log
+2026-09-19 00:37:00,735 | ERROR | kenya_tb_pipeline | Pipeline completed with errors.
+2026-09-19 00:37:00,735 | ERROR | kenya_tb_pipeline | Pipeline completed with errors.

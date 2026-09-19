@@ -1,0 +1,9 @@
+{
+  "source_url": "https://extranet.who.int/tme/generateCSV.asp?ds=outcomes",
+  "file": "who_tb_outcomes.csv",
+  "sha256": "8195082c2425a7255103f9b3634bc1b6fa8892b82dea245cb3feea03865aa422",
+  "status_code": 200,
+  "content_type": "text/csv; charset=utf-8; Charset=utf-8",
+  "etag": null,
+  "last_modified": null
+}

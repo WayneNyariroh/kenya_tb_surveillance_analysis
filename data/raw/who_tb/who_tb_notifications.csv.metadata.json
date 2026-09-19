@@ -1,0 +1,9 @@
+{
+  "source_url": "https://extranet.who.int/tme/generateCSV.asp?ds=notifications",
+  "file": "who_tb_notifications.csv",
+  "sha256": "edd2e53898d078e1ada0b0552031035318439013840ac47273aa8afd3965e1a5",
+  "status_code": 200,
+  "content_type": "text/csv; charset=utf-8; Charset=utf-8",
+  "etag": null,
+  "last_modified": null
+}
