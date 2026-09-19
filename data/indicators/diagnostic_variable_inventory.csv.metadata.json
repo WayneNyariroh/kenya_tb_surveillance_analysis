@@ -1,0 +1,10 @@
+{
+  "rows": 171,
+  "columns": [
+    "year",
+    "source_variable",
+    "value"
+  ],
+  "file": "diagnostic_variable_inventory.csv",
+  "grain": "source-variable-year"
+}

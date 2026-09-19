@@ -1,0 +1,15 @@
+{
+  "rows": 11,
+  "columns": [
+    "cohort",
+    "metric",
+    "first_value",
+    "latest_value",
+    "absolute_change",
+    "percent_change",
+    "observations",
+    "first_year",
+    "latest_year"
+  ],
+  "output_file": "table_treatment_summary.csv"
+}

@@ -1,0 +1,22 @@
+{
+  "rows": 43,
+  "columns": [
+    "year",
+    "estimated_incidence_num",
+    "estimated_incidence_rate",
+    "estimated_tb_death_rate_excl_hiv",
+    "estimated_tb_deaths_excl_hiv_num",
+    "estimated_tbhiv_death_rate",
+    "estimated_tbhiv_deaths_num",
+    "estimated_tbhiv_incidence_num",
+    "estimated_tbhiv_incidence_rate",
+    "notification_incidence_gap",
+    "notification_rate",
+    "notification_to_incidence_ratio",
+    "notifications",
+    "population"
+  ],
+  "file": "analysis_tb_year.csv",
+  "grain": "year",
+  "country": "Kenya"
+}

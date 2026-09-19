@@ -1,0 +1,18 @@
+{
+  "rows": 180,
+  "columns": [
+    "year",
+    "indicator_id",
+    "indicator_name",
+    "value",
+    "unit",
+    "source",
+    "source_variable",
+    "lower",
+    "upper",
+    "notes"
+  ],
+  "file": "tb_notifications_long.csv",
+  "grain": "indicator-year",
+  "country": "Kenya"
+}

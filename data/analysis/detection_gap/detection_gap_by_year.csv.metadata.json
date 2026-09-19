@@ -1,0 +1,12 @@
+{
+  "rows": 43,
+  "columns": [
+    "year",
+    "notifications",
+    "notification_incidence_gap",
+    "notification_to_incidence_ratio"
+  ],
+  "output_file": "detection_gap_by_year.csv",
+  "grain": "year",
+  "caution": "The notification-to-incidence ratio compares observed notifications with a modelled incidence estimate. It is not labelled a measured case-detection rate."
+}

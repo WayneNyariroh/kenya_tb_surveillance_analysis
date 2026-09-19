@@ -1,0 +1,16 @@
+{
+  "rows": 11,
+  "columns": [
+    "cohort",
+    "metric",
+    "first_value",
+    "latest_value",
+    "absolute_change",
+    "percent_change",
+    "observations",
+    "first_year",
+    "latest_year"
+  ],
+  "output_file": "treatment_trend_summary.csv",
+  "description": "Long-run treatment cohort metric changes."
+}

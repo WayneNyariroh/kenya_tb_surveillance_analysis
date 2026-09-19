@@ -1,0 +1,25 @@
+{
+  "rows": 56,
+  "columns": [
+    "area_id",
+    "area_name",
+    "area_level",
+    "parent_area_id",
+    "spectrum_region_code",
+    "area_sort_order",
+    "center_x",
+    "center_y",
+    "area_level_label",
+    "display",
+    "spectrum_level",
+    "epp_level",
+    "naomi_level",
+    "pepfar_psnu_level",
+    "geometry",
+    "county"
+  ],
+  "output_file": "kenya-geographic-data-2019_4.csv",
+  "source": "UNAIDS ADR / Kenya MoH",
+  "package_title": "Kenya Geographic Data 2019",
+  "resource_name": "Regional Geometry"
+}

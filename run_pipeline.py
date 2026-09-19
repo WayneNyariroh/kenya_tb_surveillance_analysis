@@ -177,7 +177,7 @@ def build_steps( *, skip_hiv: bool = False, skip_maps: bool = False,) -> list[tu
                 lambda: build_indicator_layer(
                     processed_root=data_processed,
                     model_root=data_model,
-                    output_root=data_indicators,
+                    output_dir=data_indicators,
                 ),
             ),
             (

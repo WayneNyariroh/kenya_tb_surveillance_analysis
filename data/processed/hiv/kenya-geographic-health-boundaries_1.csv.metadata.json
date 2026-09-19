@@ -1,0 +1,21 @@
+{
+  "rows": 362,
+  "columns": [
+    "area_id",
+    "area_name",
+    "area_level",
+    "parent_area_id",
+    "spectrum_region_code",
+    "area_sort_order",
+    "center_x",
+    "center_y",
+    "area_level_label",
+    "display",
+    "geometry",
+    "county"
+  ],
+  "output_file": "kenya-geographic-health-boundaries_1.csv",
+  "source": "UNAIDS ADR / Kenya MoH",
+  "package_title": "Kenya Geographic Health Boundaries",
+  "resource_name": "Kenya Geographic Health Boundaries"
+}

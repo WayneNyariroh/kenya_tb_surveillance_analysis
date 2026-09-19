@@ -1,0 +1,18 @@
+{
+  "rows": 27166,
+  "columns": [
+    "area_id",
+    "source",
+    "calendar_quarter",
+    "sex",
+    "age_group",
+    "population",
+    "area_name",
+    "asfr",
+    "county"
+  ],
+  "output_file": "kenya-population-data-for-naomi_5.csv",
+  "source": "UNAIDS ADR / Kenya MoH",
+  "package_title": "Kenya Population Data for Naomi",
+  "resource_name": "Population Data"
+}

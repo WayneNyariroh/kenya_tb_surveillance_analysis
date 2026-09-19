@@ -1,0 +1,4 @@
+iso3,area_level,n_areas,area_level_label,display,spectrum_level,epp_level,naomi_level,pepfar_psnu_level
+KEN,0,1,Country,True,False,False,False,False
+KEN,1,8,Former Province,True,True,True,False,False
+KEN,2,47,County,True,False,False,True,True

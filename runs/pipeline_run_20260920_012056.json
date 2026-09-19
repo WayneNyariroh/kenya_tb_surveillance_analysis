@@ -1,0 +1,204 @@
+{
+  "project": "Kenya TB Case Study",
+  "started_at": "2026-09-19T22:17:42.357019+00:00",
+  "finished_at": "2026-09-19T22:20:56.222237+00:00",
+  "duration_seconds": 193.865,
+  "log_file": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\logs\\pipeline_20260920_011742.log",
+  "steps_total": 8,
+  "steps_successful": 6,
+  "steps_failed": 2,
+  "status": "completed_with_errors",
+  "steps": [
+    {
+      "step": "Extract WHO TB data",
+      "status": "success",
+      "started_at": "2026-09-19T22:17:42.362423+00:00",
+      "duration_seconds": 0.374,
+      "outputs": {
+        "estimates": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\raw\\who_tb\\who_tb_estimates.csv",
+        "notifications": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\raw\\who_tb\\who_tb_notifications.csv",
+        "outcomes": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\raw\\who_tb\\who_tb_outcomes.csv"
+      },
+      "error": null
+    },
+    {
+      "step": "Extract KNBS population data",
+      "status": "failed",
+      "started_at": "2026-09-19T22:17:42.737581+00:00",
+      "duration_seconds": 24.496,
+      "outputs": null,
+      "error": {
+        "type": "SSLError",
+        "message": "HTTPSConnectionPool(host='www.knbs.or.ke', port=443): Max retries exceeded with url: /wp-content/uploads/2023/09/2019-Kenya-population-and-Housing-Census-Population-households-density-by-county.xlsx (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)')))",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connectionpool.py\", line 464, in _make_request\n    self._validate_conn(conn)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connectionpool.py\", line 1106, in _validate_conn\n    conn.connect()\n    ~~~~~~~~~~~~^^\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connection.py\", line 796, in connect\n    sock_and_verified = _ssl_wrap_socket_and_match_hostname(\n        sock=sock,\n    ...<14 lines>...\n        assert_fingerprint=self.assert_fingerprint,\n    )\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connection.py\", line 975, in _ssl_wrap_socket_and_match_hostname\n    ssl_sock = ssl_wrap_socket(\n        sock=sock,\n    ...<8 lines>...\n        tls_in_tls=tls_in_tls,\n    )\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\util\\ssl_.py\", line 433, in ssl_wrap_socket\n    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\util\\ssl_.py\", line 477, in _ssl_wrap_socket_impl\n    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Python314\\Lib\\ssl.py\", line 455, in wrap_socket\n    return self.sslsocket_class._create(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        sock=sock,\n        ^^^^^^^^^^\n    ...<5 lines>...\n        session=session\n        ^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Python314\\Lib\\ssl.py\", line 1076, in _create\n    self.do_handshake()\n    ~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Python314\\Lib\\ssl.py\", line 1372, in do_handshake\n    self._sslobj.do_handshake()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~^^\nssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connectionpool.py\", line 788, in urlopen\n    response = self._make_request(\n        conn,\n    ...<10 lines>...\n        **response_kw,\n    )\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connectionpool.py\", line 488, in _make_request\n    raise new_e\nurllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\requests\\adapters.py\", line 667, in send\n    resp = conn.urlopen(\n        method=request.method,\n    ...<9 lines>...\n        chunked=chunked,\n    )\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connectionpool.py\", line 872, in urlopen\n    return self.urlopen(\n           ~~~~~~~~~~~~^\n        method,\n        ^^^^^^^\n    ...<13 lines>...\n        **response_kw,\n        ^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connectionpool.py\", line 872, in urlopen\n    return self.urlopen(\n           ~~~~~~~~~~~~^\n        method,\n        ^^^^^^^\n    ...<13 lines>...\n        **response_kw,\n        ^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connectionpool.py\", line 872, in urlopen\n    return self.urlopen(\n           ~~~~~~~~~~~~^\n        method,\n        ^^^^^^^\n    ...<13 lines>...\n        **response_kw,\n        ^^^^^^^^^^^^^^\n    )\n    ^\n  [Previous line repeated 2 more times]\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]\n    )\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\util\\retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.knbs.or.ke', port=443): Max retries exceeded with url: /wp-content/uploads/2023/09/2019-Kenya-population-and-Housing-Census-Population-households-density-by-county.xlsx (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)')))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\run_pipeline.py\", line 82, in run_step\n    output = func()\n  File \"C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\run_pipeline.py\", line 142, in <lambda>\n    lambda: extract_knbs(\n            ~~~~~~~~~~~~^\n        data_raw / \"knbs\",\n        ^^^^^^^^^^^^^^^^^^\n    ),\n    ^\n  File \"C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\src\\extract\\knbs.py\", line 82, in extract_knbs\n    download_file(\n    ~~~~~~~~~~~~~^\n        session,\n        ^^^^^^^^\n    ...<3 lines>...\n        min_bytes=1_000,\n        ^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\src\\extract\\common.py\", line 102, in download_file\n    with session.get(url, stream=True, timeout=timeout) as response:\n         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\requests\\adapters.py\", line 698, in send\n    raise SSLError(e, request=request)\nrequests.exceptions.SSLError: HTTPSConnectionPool(host='www.knbs.or.ke', port=443): Max retries exceeded with url: /wp-content/uploads/2023/09/2019-Kenya-population-and-Housing-Census-Population-households-density-by-county.xlsx (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)')))\n"
+      }
+    },
+    {
+      "step": "Extract KMHFR facilities",
+      "status": "failed",
+      "started_at": "2026-09-19T22:18:07.288575+00:00",
+      "duration_seconds": 84.366,
+      "outputs": null,
+      "error": {
+        "type": "ConnectTimeout",
+        "message": "HTTPSConnectionPool(host='api.kmhfr.health.go.ke', port=443): Max retries exceeded with url: /api/public/facilities/?page=1&page_size=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.kmhfr.health.go.ke', port=443) at 0x1a6664d4550>, 'Connection to api.kmhfr.health.go.ke timed out. (connect timeout=10)'))",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connection.py\", line 204, in _new_conn\n    sock = connection.create_connection(\n        (self._dns_host, self.port),\n    ...<2 lines>...\n        socket_options=self.socket_options,\n    )\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\util\\connection.py\", line 85, in create_connection\n    raise err\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\util\\connection.py\", line 73, in create_connection\n    sock.connect(sa)\n    ~~~~~~~~~~~~^^^^\nTimeoutError: timed out\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connectionpool.py\", line 788, in urlopen\n    response = self._make_request(\n        conn,\n    ...<10 lines>...\n        **response_kw,\n    )\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connectionpool.py\", line 488, in _make_request\n    raise new_e\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connectionpool.py\", line 464, in _make_request\n    self._validate_conn(conn)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connectionpool.py\", line 1106, in _validate_conn\n    conn.connect()\n    ~~~~~~~~~~~~^^\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connection.py\", line 759, in connect\n    self.sock = sock = self._new_conn()\n                       ~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connection.py\", line 213, in _new_conn\n    raise ConnectTimeoutError(\n    ...<2 lines>...\n    ) from e\nurllib3.exceptions.ConnectTimeoutError: (<HTTPSConnection(host='api.kmhfr.health.go.ke', port=443) at 0x1a6664d4550>, 'Connection to api.kmhfr.health.go.ke timed out. (connect timeout=10)')\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\requests\\adapters.py\", line 667, in send\n    resp = conn.urlopen(\n        method=request.method,\n    ...<9 lines>...\n        chunked=chunked,\n    )\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connectionpool.py\", line 872, in urlopen\n    return self.urlopen(\n           ~~~~~~~~~~~~^\n        method,\n        ^^^^^^^\n    ...<13 lines>...\n        **response_kw,\n        ^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connectionpool.py\", line 872, in urlopen\n    return self.urlopen(\n           ~~~~~~~~~~~~^\n        method,\n        ^^^^^^^\n    ...<13 lines>...\n        **response_kw,\n        ^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connectionpool.py\", line 872, in urlopen\n    return self.urlopen(\n           ~~~~~~~~~~~~^\n        method,\n        ^^^^^^^\n    ...<13 lines>...\n        **response_kw,\n        ^^^^^^^^^^^^^^\n    )\n    ^\n  [Previous line repeated 2 more times]\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]\n    )\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\urllib3\\util\\retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.kmhfr.health.go.ke', port=443): Max retries exceeded with url: /api/public/facilities/?page=1&page_size=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.kmhfr.health.go.ke', port=443) at 0x1a6664d4550>, 'Connection to api.kmhfr.health.go.ke timed out. (connect timeout=10)'))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\run_pipeline.py\", line 82, in run_step\n    output = func()\n  File \"C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\run_pipeline.py\", line 148, in <lambda>\n    lambda: extract_kmhfr_facilities(\n            ~~~~~~~~~~~~~~~~~~~~~~~~^\n        data_raw / \"kmhfr\",\n        ^^^^^^^^^^^^^^^^^^^\n    ),\n    ^\n  File \"C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\src\\extract\\kmhfr.py\", line 84, in extract_kmhfr_facilities\n    response = session.get(url, params=params, timeout=(10, 90))\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\requests\\sessions.py\", line 602, in get\n    return self.request(\"GET\", url, **kwargs)\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\requests\\sessions.py\", line 589, in request\n    resp = self.send(prep, **send_kwargs)\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\requests\\sessions.py\", line 703, in send\n    r = adapter.send(request, **kwargs)\n  File \"C:\\Users\\Admin\\AppData\\Roaming\\Python\\Python314\\site-packages\\requests\\adapters.py\", line 688, in send\n    raise ConnectTimeout(e, request=request)\nrequests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.kmhfr.health.go.ke', port=443): Max retries exceeded with url: /api/public/facilities/?page=1&page_size=100 (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.kmhfr.health.go.ke', port=443) at 0x1a6664d4550>, 'Connection to api.kmhfr.health.go.ke timed out. (connect timeout=10)'))\n"
+      }
+    },
+    {
+      "step": "Discover public HIV resources",
+      "status": "success",
+      "started_at": "2026-09-19T22:19:31.675336+00:00",
+      "duration_seconds": 65.65,
+      "outputs": {
+        "manifest": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\raw\\hiv\\unaids_kenya_hiv_manifest.json",
+        "packages": 14,
+        "resources": 96
+      },
+      "error": null
+    },
+    {
+      "step": "Transform raw data",
+      "status": "success",
+      "started_at": "2026-09-19T22:20:37.330469+00:00",
+      "duration_seconds": 2.776,
+      "outputs": {
+        "who_tb": {
+          "status": "ok",
+          "outputs": {
+            "estimates": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\processed\\who_tb\\estimates_kenya.csv",
+            "notifications": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\processed\\who_tb\\notifications_kenya.csv",
+            "outcomes": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\processed\\who_tb\\outcomes_kenya.csv"
+          }
+        },
+        "knbs": {
+          "status": "ok",
+          "outputs": {}
+        },
+        "kmhfr": {
+          "status": "skipped",
+          "reason": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\raw\\kmhfr\\facilities.csv"
+        },
+        "hiv": {
+          "status": "ok",
+          "outputs": {
+            "resource_1": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\processed\\hiv\\kenya-geographic-health-boundaries_1.csv",
+            "resource_2": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\processed\\hiv\\kenya-geographic-data-2019_2.csv",
+            "resource_3": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\processed\\hiv\\kenya-geographic-data-2019_3.csv",
+            "resource_4": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\processed\\hiv\\kenya-geographic-data-2019_4.csv",
+            "resource_5": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\processed\\hiv\\kenya-population-data-for-naomi_5.csv"
+          }
+        },
+        "model": {
+          "fact_national_tb_year": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\model\\fact_national_tb_year.csv"
+        }
+      },
+      "error": null
+    },
+    {
+      "step": "Build epidemiological indicators",
+      "status": "success",
+      "started_at": "2026-09-19T22:20:40.112785+00:00",
+      "duration_seconds": 0.34,
+      "outputs": {
+        "tb_burden_long": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\indicators\\tb_burden_long.csv",
+        "tb_notifications_long": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\indicators\\tb_notifications_long.csv",
+        "diagnostic_variable_inventory": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\indicators\\diagnostic_variable_inventory.csv",
+        "tb_hiv_long": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\indicators\\tb_hiv_long.csv",
+        "treatment_cohorts": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\indicators\\treatment_cohorts.csv",
+        "quality_treatment": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\indicators\\quality_treatment.csv",
+        "fact_tb_indicator_year": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\indicators\\fact_tb_indicator_year.csv",
+        "quality_indicators": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\indicators\\quality_indicators.csv",
+        "analysis_tb_year": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\indicators\\analysis_tb_year.csv",
+        "manifest": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\indicators\\indicator_run.json"
+      },
+      "error": null
+    },
+    {
+      "step": "Run analytical case study",
+      "status": "success",
+      "started_at": "2026-09-19T22:20:40.542668+00:00",
+      "duration_seconds": 0.339,
+      "outputs": {
+        "national": {
+          "status": "failed",
+          "reason": "Missing required columns in fact_tb_indicator_year.csv: ['indicator']"
+        },
+        "detection_gap": {
+          "status": "ok",
+          "outputs": {
+            "series": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\detection_gap\\detection_gap_by_year.csv",
+            "latest": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\detection_gap\\detection_gap_latest.csv"
+          }
+        },
+        "treatment": {
+          "status": "ok",
+          "outputs": {
+            "series": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\treatment\\treatment_series.csv",
+            "summary": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\treatment\\treatment_trend_summary.csv"
+          }
+        },
+        "tb_hiv": {
+          "status": "failed",
+          "reason": "tb_hiv_long.csv must contain ['indicator', 'value', 'year']"
+        },
+        "county": {
+          "status": "ok",
+          "outputs": {}
+        },
+        "concentration": {
+          "status": "ok",
+          "outputs": {}
+        },
+        "report_tables": {
+          "status": "ok",
+          "outputs": {
+            "detection_gap_latest": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\report_tables\\table_detection_gap_latest.csv",
+            "treatment_summary": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\report_tables\\table_treatment_summary.csv"
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "step": "Generate visualizations",
+      "status": "success",
+      "started_at": "2026-09-19T22:20:41.237569+00:00",
+      "duration_seconds": 14.243,
+      "outputs": {
+        "national": {
+          "status": "skipped",
+          "reason": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\national\\national_indicator_series.csv"
+        },
+        "detection_gap": {
+          "status": "ok",
+          "outputs": {
+            "notification_incidence_gap": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\detection_gap\\notification_incidence_gap.png",
+            "notification_to_incidence_ratio": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\detection_gap\\notification_to_incidence_ratio.png"
+          }
+        },
+        "treatment": {
+          "status": "ok",
+          "outputs": {}
+        },
+        "tb_hiv": {
+          "status": "ok",
+          "outputs": {}
+        },
+        "county": {
+          "status": "ok",
+          "outputs": {}
+        },
+        "concentration": {
+          "status": "ok",
+          "outputs": {}
+        },
+        "facility_map": {
+          "status": "skipped",
+          "output": null
+        }
+      },
+      "error": null
+    }
+  ]
+}

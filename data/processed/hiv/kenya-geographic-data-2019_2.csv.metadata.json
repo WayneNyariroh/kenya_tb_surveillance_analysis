@@ -1,0 +1,18 @@
+{
+  "rows": 56,
+  "columns": [
+    "area_id",
+    "area_name",
+    "area_level",
+    "parent_area_id",
+    "area_sort_order",
+    "center_x",
+    "center_y",
+    "spectrum_region_code",
+    "county"
+  ],
+  "output_file": "kenya-geographic-data-2019_2.csv",
+  "source": "UNAIDS ADR / Kenya MoH",
+  "package_title": "Kenya Geographic Data 2019",
+  "resource_name": "Location Hierarchy"
+}

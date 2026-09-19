@@ -1,0 +1,18 @@
+{
+  "rows": 3,
+  "columns": [
+    "iso3",
+    "area_level",
+    "n_areas",
+    "area_level_label",
+    "display",
+    "spectrum_level",
+    "epp_level",
+    "naomi_level",
+    "pepfar_psnu_level"
+  ],
+  "output_file": "kenya-geographic-data-2019_3.csv",
+  "source": "UNAIDS ADR / Kenya MoH",
+  "package_title": "Kenya Geographic Data 2019",
+  "resource_name": "Areas Metadata"
+}

@@ -1,0 +1,39 @@
+{
+  "national": {
+    "status": "failed",
+    "reason": "Missing required columns in fact_tb_indicator_year.csv: ['indicator']"
+  },
+  "detection_gap": {
+    "status": "ok",
+    "outputs": {
+      "series": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\detection_gap\\detection_gap_by_year.csv",
+      "latest": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\detection_gap\\detection_gap_latest.csv"
+    }
+  },
+  "treatment": {
+    "status": "ok",
+    "outputs": {
+      "series": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\treatment\\treatment_series.csv",
+      "summary": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\treatment\\treatment_trend_summary.csv"
+    }
+  },
+  "tb_hiv": {
+    "status": "failed",
+    "reason": "tb_hiv_long.csv must contain ['indicator', 'value', 'year']"
+  },
+  "county": {
+    "status": "ok",
+    "outputs": {}
+  },
+  "concentration": {
+    "status": "ok",
+    "outputs": {}
+  },
+  "report_tables": {
+    "status": "ok",
+    "outputs": {
+      "detection_gap_latest": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\report_tables\\table_detection_gap_latest.csv",
+      "treatment_summary": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\report_tables\\table_treatment_summary.csv"
+    }
+  }
+}

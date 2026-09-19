@@ -1,0 +1,29 @@
+{
+  "rows": 125,
+  "columns": [
+    "year",
+    "cohort",
+    "cohort_size",
+    "cohort_source_variable",
+    "completed_num",
+    "completed_pct",
+    "completed_source_variable",
+    "died_num",
+    "died_pct",
+    "died_source_variable",
+    "failed_num",
+    "failed_pct",
+    "failed_source_variable",
+    "treatment_success_num",
+    "treatment_success_pct",
+    "treatment_success_source",
+    "cured_num",
+    "cured_pct",
+    "cured_source_variable",
+    "lost_to_follow_up_num",
+    "lost_to_follow_up_pct",
+    "lost_to_follow_up_source_variable"
+  ],
+  "output_file": "treatment_series.csv",
+  "grain": "treatment cohort-year where available"
+}

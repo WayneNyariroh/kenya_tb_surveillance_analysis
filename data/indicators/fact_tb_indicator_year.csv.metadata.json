@@ -1,0 +1,19 @@
+{
+  "rows": 405,
+  "columns": [
+    "year",
+    "indicator_id",
+    "indicator_name",
+    "value",
+    "unit",
+    "source",
+    "source_variable",
+    "lower",
+    "upper",
+    "notes"
+  ],
+  "file": "fact_tb_indicator_year.csv",
+  "grain": "indicator-year",
+  "country": "Kenya",
+  "description": "Consolidated national TB indicator table."
+}

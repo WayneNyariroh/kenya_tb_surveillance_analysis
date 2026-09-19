@@ -1,0 +1,9 @@
+{
+  "rows": 5,
+  "columns": [
+    "check",
+    "status",
+    "details"
+  ],
+  "file": "quality_indicators.csv"
+}

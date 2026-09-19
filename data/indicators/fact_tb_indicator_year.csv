@@ -1,0 +1,406 @@
+year,indicator_id,indicator_name,value,unit,source,source_variable,lower,upper,notes
+2000,estimated_incidence_num,Estimated TB incidence,138000.0,people,WHO Global TB Database: burden estimates,e_inc_num,56000.0,257000.0,
+2001,estimated_incidence_num,Estimated TB incidence,158000.0,people,WHO Global TB Database: burden estimates,e_inc_num,56000.0,310000.0,
+2002,estimated_incidence_num,Estimated TB incidence,174000.0,people,WHO Global TB Database: burden estimates,e_inc_num,57000.0,356000.0,
+2003,estimated_incidence_num,Estimated TB incidence,205000.0,people,WHO Global TB Database: burden estimates,e_inc_num,54000.0,455000.0,
+2004,estimated_incidence_num,Estimated TB incidence,220000.0,people,WHO Global TB Database: burden estimates,e_inc_num,54000.0,500000.0,
+2005,estimated_incidence_num,Estimated TB incidence,225000.0,people,WHO Global TB Database: burden estimates,e_inc_num,56000.0,510000.0,
+2006,estimated_incidence_num,Estimated TB incidence,239000.0,people,WHO Global TB Database: burden estimates,e_inc_num,56000.0,549000.0,
+2007,estimated_incidence_num,Estimated TB incidence,235000.0,people,WHO Global TB Database: burden estimates,e_inc_num,60000.0,525000.0,
+2008,estimated_incidence_num,Estimated TB incidence,221000.0,people,WHO Global TB Database: burden estimates,e_inc_num,66000.0,467000.0,
+2009,estimated_incidence_num,Estimated TB incidence,229000.0,people,WHO Global TB Database: burden estimates,e_inc_num,68000.0,484000.0,
+2010,estimated_incidence_num,Estimated TB incidence,221000.0,people,WHO Global TB Database: burden estimates,e_inc_num,73000.0,449000.0,
+2011,estimated_incidence_num,Estimated TB incidence,217000.0,people,WHO Global TB Database: burden estimates,e_inc_num,76000.0,429000.0,
+2012,estimated_incidence_num,Estimated TB incidence,207000.0,people,WHO Global TB Database: burden estimates,e_inc_num,79000.0,394000.0,
+2013,estimated_incidence_num,Estimated TB incidence,199000.0,people,WHO Global TB Database: burden estimates,e_inc_num,82000.0,367000.0,
+2014,estimated_incidence_num,Estimated TB incidence,195000.0,people,WHO Global TB Database: burden estimates,e_inc_num,84000.0,351000.0,
+2015,estimated_incidence_num,Estimated TB incidence,179000.0,people,WHO Global TB Database: burden estimates,e_inc_num,86000.0,307000.0,
+2016,estimated_incidence_num,Estimated TB incidence,168000.0,people,WHO Global TB Database: burden estimates,e_inc_num,86000.0,276000.0,
+2017,estimated_incidence_num,Estimated TB incidence,157000.0,people,WHO Global TB Database: burden estimates,e_inc_num,86000.0,248000.0,
+2018,estimated_incidence_num,Estimated TB incidence,146000.0,people,WHO Global TB Database: burden estimates,e_inc_num,85000.0,224000.0,
+2019,estimated_incidence_num,Estimated TB incidence,137000.0,people,WHO Global TB Database: burden estimates,e_inc_num,84000.0,203000.0,
+2020,estimated_incidence_num,Estimated TB incidence,129000.0,people,WHO Global TB Database: burden estimates,e_inc_num,79000.0,197000.0,
+2021,estimated_incidence_num,Estimated TB incidence,132000.0,people,WHO Global TB Database: burden estimates,e_inc_num,77000.0,201000.0,
+2022,estimated_incidence_num,Estimated TB incidence,129000.0,people,WHO Global TB Database: burden estimates,e_inc_num,74000.0,204000.0,
+2023,estimated_incidence_num,Estimated TB incidence,119000.0,people,WHO Global TB Database: burden estimates,e_inc_num,65000.0,190000.0,
+2024,estimated_incidence_num,Estimated TB incidence,117000.0,people,WHO Global TB Database: burden estimates,e_inc_num,61000.0,191000.0,
+2000,estimated_incidence_rate,Estimated TB incidence rate,451.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,182.0,839.0,
+2001,estimated_incidence_rate,Estimated TB incidence rate,499.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,178.0,982.0,
+2002,estimated_incidence_rate,Estimated TB incidence rate,534.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,174.0,1090.0,
+2003,estimated_incidence_rate,Estimated TB incidence rate,610.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,161.0,1350.0,
+2004,estimated_incidence_rate,Estimated TB incidence rate,634.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,155.0,1440.0,
+2005,estimated_incidence_rate,Estimated TB incidence rate,630.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,156.0,1420.0,
+2006,estimated_incidence_rate,Estimated TB incidence rate,646.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,153.0,1490.0,
+2007,estimated_incidence_rate,Estimated TB incidence rate,618.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,159.0,1380.0,
+2008,estimated_incidence_rate,Estimated TB incidence rate,564.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,169.0,1190.0,
+2009,estimated_incidence_rate,Estimated TB incidence rate,566.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,169.0,1200.0,
+2010,estimated_incidence_rate,Estimated TB incidence rate,531.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,174.0,1080.0,
+2011,estimated_incidence_rate,Estimated TB incidence rate,506.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,177.0,1000.0,
+2012,estimated_incidence_rate,Estimated TB incidence rate,471.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,181.0,897.0,
+2013,estimated_incidence_rate,Estimated TB incidence rate,443.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,182.0,816.0,
+2014,estimated_incidence_rate,Estimated TB incidence rate,423.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,183.0,761.0,
+2015,estimated_incidence_rate,Estimated TB incidence rate,380.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,182.0,651.0,
+2016,estimated_incidence_rate,Estimated TB incidence rate,348.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,179.0,573.0,
+2017,estimated_incidence_rate,Estimated TB incidence rate,319.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,175.0,505.0,
+2018,estimated_incidence_rate,Estimated TB incidence rate,292.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,170.0,446.0,
+2019,estimated_incidence_rate,Estimated TB incidence rate,267.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,163.0,396.0,
+2020,estimated_incidence_rate,Estimated TB incidence rate,248.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,150.0,377.0,
+2021,estimated_incidence_rate,Estimated TB incidence rate,247.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,145.0,377.0,
+2022,estimated_incidence_rate,Estimated TB incidence rate,238.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,136.0,375.0,
+2023,estimated_incidence_rate,Estimated TB incidence rate,214.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,118.0,344.0,
+2024,estimated_incidence_rate,Estimated TB incidence rate,207.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_100k,109.0,339.0,
+2000,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,41.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,15.0,80.0,
+2001,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,52.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,21.0,98.0,
+2002,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,61.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,25.0,112.0,
+2003,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,73.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,31.0,134.0,
+2004,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,78.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,33.0,142.0,
+2005,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,77.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,32.0,140.0,
+2006,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,78.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,44.0,122.0,
+2007,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,81.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,45.0,127.0,
+2008,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,78.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,44.0,123.0,
+2009,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,80.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,45.0,125.0,
+2010,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,79.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,44.0,124.0,
+2011,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,77.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,43.0,121.0,
+2012,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,74.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,41.0,115.0,
+2013,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,70.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,39.0,109.0,
+2014,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,69.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,38.0,107.0,
+2015,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,64.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,36.0,100.0,
+2016,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,60.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,34.0,94.0,
+2017,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,50.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,28.0,78.0,
+2018,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,38.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,22.0,59.0,
+2019,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,37.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,21.0,58.0,
+2020,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,38.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,22.0,59.0,
+2021,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,40.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,23.0,61.0,
+2022,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,31.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,16.0,53.0,
+2023,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,28.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,14.0,47.0,
+2024,estimated_tb_death_rate_excl_hiv,Estimated TB mortality rate excluding HIV-associated TB deaths,29.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_100k,14.0,49.0,
+2000,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,13000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,4600.0,24000.0,
+2001,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,17000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,6500.0,31000.0,
+2002,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,20000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,8200.0,37000.0,
+2003,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,25000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,10000.0,45000.0,
+2004,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,27000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,12000.0,49000.0,
+2005,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,27000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,12000.0,50000.0,
+2006,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,29000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,16000.0,45000.0,
+2007,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,31000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,17000.0,48000.0,
+2008,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,31000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,17000.0,48000.0,
+2009,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,32000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,18000.0,51000.0,
+2010,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,33000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,18000.0,52000.0,
+2011,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,33000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,19000.0,52000.0,
+2012,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,32000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,18000.0,51000.0,
+2013,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,31000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,18000.0,49000.0,
+2014,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,32000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,18000.0,49000.0,
+2015,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,30000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,17000.0,47000.0,
+2016,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,29000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,16000.0,45000.0,
+2017,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,25000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,14000.0,39000.0,
+2018,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,19000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,11000.0,29000.0,
+2019,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,19000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,11000.0,30000.0,
+2020,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,20000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,11000.0,31000.0,
+2021,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,21000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,12000.0,33000.0,
+2022,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,17000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,8500.0,29000.0,
+2023,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,15000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,7600.0,26000.0,
+2024,estimated_tb_deaths_excl_hiv_num,Estimated TB deaths excluding HIV-associated TB deaths,16000.0,deaths,WHO Global TB Database: burden estimates,e_mort_exc_tbhiv_num,7900.0,28000.0,
+2000,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,142.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2001,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,143.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2002,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,141.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2003,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,153.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2004,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,153.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2005,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,151.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2006,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,157.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2007,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,138.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2008,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,119.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2009,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,117.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2010,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,102.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2011,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,93.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2012,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,84.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2013,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,78.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2014,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,70.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2015,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,59.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2016,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,51.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2017,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,38.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2018,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,26.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2019,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,25.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2020,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,22.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2021,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,22.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2022,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,17.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2023,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,14.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2024,estimated_tbhiv_death_rate,Estimated HIV-associated TB mortality rate,14.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_mort_tbhiv_100k,,,
+2000,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,44000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,17000.0,82000.0,
+2001,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,45000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,16000.0,90000.0,
+2002,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,46000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,14000.0,96000.0,
+2003,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,51000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,13000.0,116000.0,
+2004,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,53000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,12000.0,123000.0,
+2005,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,54000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,13000.0,125000.0,
+2006,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,58000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,15000.0,130000.0,
+2007,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,53000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,14000.0,115000.0,
+2008,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,47000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,15000.0,97000.0,
+2009,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,47000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,15000.0,98000.0,
+2010,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,43000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,14000.0,85000.0,
+2011,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,40000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,14000.0,78000.0,
+2012,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,37000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,14000.0,70000.0,
+2013,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,35000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,14000.0,64000.0,
+2014,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,32000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,14000.0,58000.0,
+2015,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,28000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,13000.0,48000.0,
+2016,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,24000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,12000.0,41000.0,
+2017,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,18000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,9900.0,30000.0,
+2018,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,13000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,7500.0,20000.0,
+2019,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,13000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,7500.0,19000.0,
+2020,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,12000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,7300.0,18000.0,
+2021,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,12000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,7100.0,18000.0,
+2022,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,9100.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,5200.0,14000.0,
+2023,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,7700.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,3900.0,12000.0,
+2024,estimated_tbhiv_deaths_num,Estimated HIV-associated TB deaths,8000.0,deaths,WHO Global TB Database: burden estimates,e_mort_tbhiv_num,3700.0,13000.0,
+2000,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,95000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,35000.0,183000.0,
+2001,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,98000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,32000.0,201000.0,
+2002,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,100000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,29000.0,215000.0,
+2003,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,111000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,25000.0,259000.0,
+2004,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,114000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,23000.0,275000.0,
+2005,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,116000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,24000.0,279000.0,
+2006,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,124000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,28000.0,290000.0,
+2007,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,112000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,28000.0,255000.0,
+2008,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,100000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,29000.0,214000.0,
+2009,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,101000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,29000.0,216000.0,
+2010,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,91000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,29000.0,188000.0,
+2011,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,85000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,29000.0,172000.0,
+2012,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,79000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,29000.0,153000.0,
+2013,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,75000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,29000.0,141000.0,
+2014,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,69000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,29000.0,127000.0,
+2015,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,60000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,27000.0,104000.0,
+2016,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,53000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,26000.0,89000.0,
+2017,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,45000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,23000.0,73000.0,
+2018,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,40000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,22000.0,62000.0,
+2019,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,36000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,21000.0,55000.0,
+2020,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,32000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,20000.0,47000.0,
+2021,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,32000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,18000.0,47000.0,
+2022,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,29000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,17000.0,43000.0,
+2023,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,25000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,14000.0,38000.0,
+2024,estimated_tbhiv_incidence_num,Estimated HIV-associated TB incidence,25000.0,people,WHO Global TB Database: burden estimates,e_inc_tbhiv_num,12000.0,39000.0,
+2000,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,309.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,116.0,597.0,
+2001,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,310.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,100.0,637.0,
+2002,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,306.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,87.0,657.0,
+2003,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,329.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,74.0,770.0,
+2004,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,329.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,68.0,792.0,
+2005,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,325.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,67.0,780.0,
+2006,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,337.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,76.0,786.0,
+2007,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,296.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,73.0,671.0,
+2008,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,254.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,73.0,545.0,
+2009,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,249.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,71.0,535.0,
+2010,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,218.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,69.0,451.0,
+2011,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,199.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,67.0,402.0,
+2012,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,179.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,66.0,348.0,
+2013,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,166.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,65.0,313.0,
+2014,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,150.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,62.0,277.0,
+2015,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,126.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,58.0,222.0,
+2016,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,109.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,53.0,184.0,
+2017,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,91.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,48.0,149.0,
+2018,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,79.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,43.0,124.0,
+2019,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,70.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,40.0,107.0,
+2020,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,62.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,38.0,89.0,
+2021,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,60.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,34.0,88.0,
+2022,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,54.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,31.0,80.0,
+2023,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,46.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,25.0,68.0,
+2024,estimated_tbhiv_incidence_rate,Estimated HIV-associated TB incidence rate,44.0,"per 100,000 population",WHO Global TB Database: burden estimates,e_inc_tbhiv_100k,22.0,69.0,
+1980,notification_incidence_gap,Estimated incidence-to-notification gap,,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+1981,notification_incidence_gap,Estimated incidence-to-notification gap,,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+1982,notification_incidence_gap,Estimated incidence-to-notification gap,,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+1983,notification_incidence_gap,Estimated incidence-to-notification gap,,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+1984,notification_incidence_gap,Estimated incidence-to-notification gap,,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+1985,notification_incidence_gap,Estimated incidence-to-notification gap,,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+1986,notification_incidence_gap,Estimated incidence-to-notification gap,,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+1987,notification_incidence_gap,Estimated incidence-to-notification gap,,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+1988,notification_incidence_gap,Estimated incidence-to-notification gap,,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+1989,notification_incidence_gap,Estimated incidence-to-notification gap,,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+1990,notification_incidence_gap,Estimated incidence-to-notification gap,,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+1991,notification_incidence_gap,Estimated incidence-to-notification gap,,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+1992,notification_incidence_gap,Estimated incidence-to-notification gap,,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+1993,notification_incidence_gap,Estimated incidence-to-notification gap,,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+1994,notification_incidence_gap,Estimated incidence-to-notification gap,,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+1995,notification_incidence_gap,Estimated incidence-to-notification gap,,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+1996,notification_incidence_gap,Estimated incidence-to-notification gap,,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+1997,notification_incidence_gap,Estimated incidence-to-notification gap,,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+1998,notification_incidence_gap,Estimated incidence-to-notification gap,,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+1999,notification_incidence_gap,Estimated incidence-to-notification gap,,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2000,notification_incidence_gap,Estimated incidence-to-notification gap,73841.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2001,notification_incidence_gap,Estimated incidence-to-notification gap,84983.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2002,notification_incidence_gap,Estimated incidence-to-notification gap,93817.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2003,notification_incidence_gap,Estimated incidence-to-notification gap,110817.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2004,notification_incidence_gap,Estimated incidence-to-notification gap,119427.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2005,notification_incidence_gap,Estimated incidence-to-notification gap,122320.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2006,notification_incidence_gap,Estimated incidence-to-notification gap,130658.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2007,notification_incidence_gap,Estimated incidence-to-notification gap,128562.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2008,notification_incidence_gap,Estimated incidence-to-notification gap,121059.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2009,notification_incidence_gap,Estimated incidence-to-notification gap,126003.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2010,notification_incidence_gap,Estimated incidence-to-notification gap,121728.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2011,notification_incidence_gap,Estimated incidence-to-notification gap,119680.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2012,notification_incidence_gap,Estimated incidence-to-notification gap,114013.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2013,notification_incidence_gap,Estimated incidence-to-notification gap,109204.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2014,notification_incidence_gap,Estimated incidence-to-notification gap,106975.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2015,notification_incidence_gap,Estimated incidence-to-notification gap,97708.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2016,notification_incidence_gap,Estimated incidence-to-notification gap,91665.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2017,notification_incidence_gap,Estimated incidence-to-notification gap,73401.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2018,notification_incidence_gap,Estimated incidence-to-notification gap,51466.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2019,notification_incidence_gap,Estimated incidence-to-notification gap,52655.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2020,notification_incidence_gap,Estimated incidence-to-notification gap,57940.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2021,notification_incidence_gap,Estimated incidence-to-notification gap,55990.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2022,notification_incidence_gap,Estimated incidence-to-notification gap,40310.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2023,notification_incidence_gap,Estimated incidence-to-notification gap,24347.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+2024,notification_incidence_gap,Estimated incidence-to-notification gap,22167.0,people,Derived from WHO burden estimates and notifications,notification_incidence_gap,,,Estimated incidence minus notifications. This is not a direct count of undiagnosed people.
+1980,notification_rate,TB notification rate,,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+1981,notification_rate,TB notification rate,,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+1982,notification_rate,TB notification rate,,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+1983,notification_rate,TB notification rate,,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+1984,notification_rate,TB notification rate,,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+1985,notification_rate,TB notification rate,,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+1986,notification_rate,TB notification rate,,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+1987,notification_rate,TB notification rate,,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+1988,notification_rate,TB notification rate,,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+1989,notification_rate,TB notification rate,,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+1990,notification_rate,TB notification rate,,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+1991,notification_rate,TB notification rate,,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+1992,notification_rate,TB notification rate,,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+1993,notification_rate,TB notification rate,,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+1994,notification_rate,TB notification rate,,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+1995,notification_rate,TB notification rate,,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+1996,notification_rate,TB notification rate,,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+1997,notification_rate,TB notification rate,,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+1998,notification_rate,TB notification rate,,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+1999,notification_rate,TB notification rate,,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2000,notification_rate,TB notification rate,209.37648596883184,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2001,notification_rate,TB notification rate,230.9262849028253,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2002,notification_rate,TB notification rate,245.73535776387106,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2003,notification_rate,TB notification rate,279.8716054873889,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2004,notification_rate,TB notification rate,289.72339399809096,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2005,notification_rate,TB notification rate,286.84381404609456,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2006,notification_rate,TB notification rate,293.577836469379,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2007,notification_rate,TB notification rate,279.8323477234117,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2008,notification_rate,TB notification rate,254.9102247513362,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2009,notification_rate,TB notification rate,254.8869689374309,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2010,notification_rate,TB notification rate,238.6428531523348,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2011,notification_rate,TB notification rate,227.60408648029156,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2012,notification_rate,TB notification rate,211.87197607307425,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2013,notification_rate,TB notification rate,199.60528852206906,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2014,notification_rate,TB notification rate,191.1449291362069,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2015,notification_rate,TB notification rate,172.63651737192652,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2016,notification_rate,TB notification rate,158.56979867171543,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2017,notification_rate,TB notification rate,169.92438233882407,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2018,notification_rate,TB notification rate,188.28808064388016,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2019,notification_rate,TB notification rate,164.72720699937807,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2020,notification_rate,TB notification rate,136.08506032507478,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2021,notification_rate,TB notification rate,142.82449350058363,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2022,notification_rate,TB notification rate,163.47643994652705,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2023,notification_rate,TB notification rate,171.04210055666522,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+2024,notification_rate,TB notification rate,168.04546238178645,"per 100,000 population",Derived from WHO notifications and WHO population,notification_rate,,,Formula: c_newinc / e_pop_num * 100000
+1980,notification_to_incidence_ratio,Notification-to-incidence ratio,,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+1981,notification_to_incidence_ratio,Notification-to-incidence ratio,,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+1982,notification_to_incidence_ratio,Notification-to-incidence ratio,,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+1983,notification_to_incidence_ratio,Notification-to-incidence ratio,,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+1984,notification_to_incidence_ratio,Notification-to-incidence ratio,,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+1985,notification_to_incidence_ratio,Notification-to-incidence ratio,,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+1986,notification_to_incidence_ratio,Notification-to-incidence ratio,,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+1987,notification_to_incidence_ratio,Notification-to-incidence ratio,,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+1988,notification_to_incidence_ratio,Notification-to-incidence ratio,,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+1989,notification_to_incidence_ratio,Notification-to-incidence ratio,,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+1990,notification_to_incidence_ratio,Notification-to-incidence ratio,,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+1991,notification_to_incidence_ratio,Notification-to-incidence ratio,,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+1992,notification_to_incidence_ratio,Notification-to-incidence ratio,,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+1993,notification_to_incidence_ratio,Notification-to-incidence ratio,,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+1994,notification_to_incidence_ratio,Notification-to-incidence ratio,,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+1995,notification_to_incidence_ratio,Notification-to-incidence ratio,,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+1996,notification_to_incidence_ratio,Notification-to-incidence ratio,,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+1997,notification_to_incidence_ratio,Notification-to-incidence ratio,,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+1998,notification_to_incidence_ratio,Notification-to-incidence ratio,,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+1999,notification_to_incidence_ratio,Notification-to-incidence ratio,,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2000,notification_to_incidence_ratio,Notification-to-incidence ratio,46.49202898550725,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2001,notification_to_incidence_ratio,Notification-to-incidence ratio,46.21329113924051,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2002,notification_to_incidence_ratio,Notification-to-incidence ratio,46.08218390804598,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2003,notification_to_incidence_ratio,Notification-to-incidence ratio,45.942926829268295,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2004,notification_to_incidence_ratio,Notification-to-incidence ratio,45.715,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2005,notification_to_incidence_ratio,Notification-to-incidence ratio,45.635555555555555,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2006,notification_to_incidence_ratio,Notification-to-incidence ratio,45.33138075313807,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2007,notification_to_incidence_ratio,Notification-to-incidence ratio,45.292765957446804,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2008,notification_to_incidence_ratio,Notification-to-incidence ratio,45.222171945701355,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2009,notification_to_incidence_ratio,Notification-to-incidence ratio,44.97685589519651,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2010,notification_to_incidence_ratio,Notification-to-incidence ratio,44.91945701357466,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2011,notification_to_incidence_ratio,Notification-to-incidence ratio,44.84792626728111,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2012,notification_to_incidence_ratio,Notification-to-incidence ratio,44.92125603864734,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2013,notification_to_incidence_ratio,Notification-to-incidence ratio,45.12361809045226,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2014,notification_to_incidence_ratio,Notification-to-incidence ratio,45.14102564102564,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2015,notification_to_incidence_ratio,Notification-to-incidence ratio,45.4145251396648,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2016,notification_to_incidence_ratio,Notification-to-incidence ratio,45.4375,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2017,notification_to_incidence_ratio,Notification-to-incidence ratio,53.24777070063694,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2018,notification_to_incidence_ratio,Notification-to-incidence ratio,64.74931506849315,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2019,notification_to_incidence_ratio,Notification-to-incidence ratio,61.56569343065693,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2020,notification_to_incidence_ratio,Notification-to-incidence ratio,55.08527131782945,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2021,notification_to_incidence_ratio,Notification-to-incidence ratio,57.58333333333333,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2022,notification_to_incidence_ratio,Notification-to-incidence ratio,68.75193798449612,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2023,notification_to_incidence_ratio,Notification-to-incidence ratio,79.54033613445378,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+2024,notification_to_incidence_ratio,Notification-to-incidence ratio,81.05384615384615,percent,Derived from WHO burden estimates and notifications,notification_to_incidence_ratio,,,Notifications / estimated incidence * 100. Do not interpret automatically as a measured case-detection rate.
+1980,notifications,New and relapse TB notifications,11049.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+1981,notifications,New and relapse TB notifications,10027.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+1982,notifications,New and relapse TB notifications,,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+1983,notifications,New and relapse TB notifications,11966.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+1984,notifications,New and relapse TB notifications,,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+1985,notifications,New and relapse TB notifications,10460.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+1986,notifications,New and relapse TB notifications,10022.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+1987,notifications,New and relapse TB notifications,10515.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+1988,notifications,New and relapse TB notifications,10957.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+1989,notifications,New and relapse TB notifications,12592.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+1990,notifications,New and relapse TB notifications,11788.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+1991,notifications,New and relapse TB notifications,12320.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+1992,notifications,New and relapse TB notifications,14599.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+1993,notifications,New and relapse TB notifications,20451.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+1994,notifications,New and relapse TB notifications,22930.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+1995,notifications,New and relapse TB notifications,28142.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+1996,notifications,New and relapse TB notifications,34980.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+1997,notifications,New and relapse TB notifications,39738.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+1998,notifications,New and relapse TB notifications,48936.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+1999,notifications,New and relapse TB notifications,57266.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2000,notifications,New and relapse TB notifications,64159.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2001,notifications,New and relapse TB notifications,73017.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2002,notifications,New and relapse TB notifications,80183.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2003,notifications,New and relapse TB notifications,94183.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2004,notifications,New and relapse TB notifications,100573.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2005,notifications,New and relapse TB notifications,102680.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2006,notifications,New and relapse TB notifications,108342.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2007,notifications,New and relapse TB notifications,106438.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2008,notifications,New and relapse TB notifications,99941.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2009,notifications,New and relapse TB notifications,102997.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2010,notifications,New and relapse TB notifications,99272.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2011,notifications,New and relapse TB notifications,97320.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2012,notifications,New and relapse TB notifications,92987.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2013,notifications,New and relapse TB notifications,89796.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2014,notifications,New and relapse TB notifications,88025.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2015,notifications,New and relapse TB notifications,81292.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2016,notifications,New and relapse TB notifications,76335.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2017,notifications,New and relapse TB notifications,83599.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2018,notifications,New and relapse TB notifications,94534.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2019,notifications,New and relapse TB notifications,84345.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2020,notifications,New and relapse TB notifications,71060.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2021,notifications,New and relapse TB notifications,76010.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2022,notifications,New and relapse TB notifications,88690.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2023,notifications,New and relapse TB notifications,94653.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2024,notifications,New and relapse TB notifications,94833.0,people,WHO Global TB Database: case notifications,c_newinc,,,Reported surveillance/programme observations.
+2000,population,Population,30642887.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2001,population,Population,31619181.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2002,population,Population,32629818.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2003,population,Population,33652217.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2004,population,Population,34713455.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2005,population,Population,35796484.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2006,population,Population,36904012.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2007,population,Population,38036346.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2008,population,Population,39206352.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2009,population,Population,40408892.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2010,population,Population,41598564.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2011,population,Population,42758459.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2012,population,Population,43888296.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2013,population,Population,44986784.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2014,population,Population,46051444.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2015,population,Population,47088531.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2016,population,Population,48139684.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2017,population,Population,49197766.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2018,population,Population,50207108.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2019,population,Population,51202835.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2020,population,Population,52217341.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2021,population,Population,53219163.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2022,population,Population,54252466.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2023,population,Population,55339007.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,
+2024,population,Population,56432943.0,people,WHO Global TB Database: burden estimates,e_pop_num,,,

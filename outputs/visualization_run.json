@@ -1,0 +1,33 @@
+{
+  "national": {
+    "status": "skipped",
+    "reason": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\data\\analysis\\national\\national_indicator_series.csv"
+  },
+  "detection_gap": {
+    "status": "ok",
+    "outputs": {
+      "notification_incidence_gap": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\detection_gap\\notification_incidence_gap.png",
+      "notification_to_incidence_ratio": "C:\\Users\\Admin\\Downloads\\WAYNE\\PROJECTS\\kenya_tb_pipeline\\kenya_tb_surveillance_analysis\\outputs\\figures\\detection_gap\\notification_to_incidence_ratio.png"
+    }
+  },
+  "treatment": {
+    "status": "ok",
+    "outputs": {}
+  },
+  "tb_hiv": {
+    "status": "ok",
+    "outputs": {}
+  },
+  "county": {
+    "status": "ok",
+    "outputs": {}
+  },
+  "concentration": {
+    "status": "ok",
+    "outputs": {}
+  },
+  "facility_map": {
+    "status": "skipped",
+    "output": null
+  }
+}

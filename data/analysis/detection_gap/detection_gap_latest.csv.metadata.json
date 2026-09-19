@@ -1,0 +1,11 @@
+{
+  "rows": 1,
+  "columns": [
+    "latest_year",
+    "estimated_incident_tb",
+    "notifications",
+    "notification_incidence_gap",
+    "notification_to_incidence_ratio"
+  ],
+  "output_file": "detection_gap_latest.csv"
+}

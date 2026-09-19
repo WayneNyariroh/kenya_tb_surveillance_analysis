@@ -1,0 +1,6 @@
+check,status,details
+required_columns,pass,"Expected year, indicator_id and value columns."
+valid_year,pass,Rows with missing/non-numeric year: 0
+unique_indicator_year,pass,Duplicate indicator-year rows: 0
+percentage_bounds,pass,Percent values outside 0-100: 0
+negative_values,pass,Negative metric values: 0. Some derived gaps may legitimately be negative.

@@ -1,0 +1,3 @@
+check,status,details
+treatment_success_bounds,pass,Treatment success percentages outside 0-100: 0
+success_not_above_cohort,pass,Rows where successful outcomes exceed cohort size: 0
